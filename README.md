@@ -1,25 +1,12 @@
-# PUI2018_shy256
+# NetID: shy256
 
 
 # Code of Conduct: Diversity is considered a resource that enriches us culturally and intellectually in this class. No instances of harassment or attempt to marginalize students will be tolerated in my class. If you have concerns please come talk to me
 
 This repository contains the assignments for NYU CUSP Principles of Urban Informatics 2018. 
-Check here for the new assignments, and for the solutions to be posted. For class material please go [here](https://github.com/fedhere/UInotebooks) (including the lecture slides, [here](https://github.com/fedhere/UInotebooks/tree/master/slides2018)).
+I confirm that works submitted here is in accordance with the [NYU and CUSP integrity academic integrity rules](https://docs.google.com/a/nyu.edu/document/d/1xGQjUPBiZJzxz84VK14D2EaWJEYH91DJxQ7vPiWPMkI/edit?usp=sharing) at all times! 
 
-Welcome to CUSP and to Principles of Urban Informatics!
-In my class I expect to see a supportive, collaborative attitude from all of you, to assure we maintain and foster a learning environment that leads to rigor, excellence, and happiness.  
-
-_At times you will have a hard time figuring out the solutions to problems. Remember that 
-we admitted you because we believed you would have a positive influence on the class, 
-and that being at CUSP can fulfill your potential as an Urban Scientist. 
-Don't worry about how much you already know, especially do not compare it to what other students know. 
-You may have the wrong perception of your skills, and of the skills of your classmates, and your strengths and the strength of your background may lie in another set of skills, just as important for an Urban Scientist. 
-We are here to help you develop the skills you do not yet have and strengthen the skills you already have. 
-You are here because we want you to be here and believe in your potential._
-
-Respect the [NYU and CUSP integrity academic integrity rules](https://docs.google.com/a/nyu.edu/document/d/1xGQjUPBiZJzxz84VK14D2EaWJEYH91DJxQ7vPiWPMkI/edit?usp=sharing) at all times! 
-
-### GRADING GUIDELINES
+### FMI: GRADING GUIDELINES
 - Each HW must be turned in as a directory in PUI2018_\<netID>.
 - The directory  HW\<hw_number>\_\<netID> must have a README.md which who was in the group that the student worked in and states the student's participation. No penalty if the student declares not to have had any contribution but to have jut followed and learned. However __missing the README.md, missing the statement about who the student worked with and what they did, or inconsistencies between the statements of students within the group that cannot be easily reconciled by asking will costs them 10% of the grade__.
 - Each assignment turned in as a notebook must have rendered plots with axis labels and captions. __Each missing/non rendered plot, or plot without axes labels or caption will cost 10% of the grade__.
