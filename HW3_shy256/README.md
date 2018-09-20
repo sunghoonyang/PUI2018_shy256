@@ -32,7 +32,7 @@ shuf -n 100000 Open_Parking_and_Camera_Violations.csv >> Open_Parking_and_Camera
 # gives 100001
 wc -l Open_Parking_and_Camera_Violations_100k_rows.csv
 ```
-Please review the [NoteBook](../HW3_shy256/HW2_20180918.ipynb) for the rest of Assignment 2 and Extra Credit
+Please review the [NoteBook](../HW3_shy256/HW3.ipynb) for the rest of Assignment 2 and Extra Credit
 
 # Assignment 3, 4:  MTA API data processing
 Please review [get_bus_info_shy256.py](../HW3_shy256/get_bus_info_shy256.py/Users/ysh/Documents/pui/PUI2018_shy256/HW3_shy256/get_bus_info_shy256.py)
