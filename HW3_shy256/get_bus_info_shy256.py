@@ -8,7 +8,7 @@ def main(key, bus):
     :param bus: published line name (i.e. bus number)
     :return: list of lats and lons
     """
-    dat = get_data(key)
+    dat = get_data(key, bus, file_write=True)
     rv = []
     for j in dat:
         bus_line_nm = j['MonitoredVehicleJourney']['PublishedLineName']
@@ -16,8 +16,6 @@ def main(key, bus):
             try:
                 lat = j['MonitoredVehicleJourney']['VehicleLocation']['Latitude']
                 lon = j['MonitoredVehicleJourney']['VehicleLocation']['Longitude']
-                stop_status = j['MonitoredVehicleJourney']['MonitoredCall']['StopPointName']
-                stop = j['MonitoredVehicleJourney']['MonitoredCall']['Extensions']['Distances']['PresentableDistance']
                 onward_calls_empty = True if len(j['MonitoredVehicleJourney']['OnwardCalls']) == 0 else False
             except Exception as e:
                 print('ERROR:')
@@ -27,6 +25,9 @@ def main(key, bus):
                 if onward_calls_empty:
                     rv.append((lat, lon, 'N/A', 'N/A'))
                 else:
+                    stop_status = j['MonitoredVehicleJourney']['OnwardCalls']['OnwardCall'][0]['StopPointName']
+                    stop = j['MonitoredVehicleJourney']['OnwardCalls']['OnwardCall'][0]['Extensions']['Distances'][
+                        'PresentableDistance']
                     rv.append((lat, lon, stop_status, stop))
     return rv
 

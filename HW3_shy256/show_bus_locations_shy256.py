@@ -8,7 +8,7 @@ def main(key, bus):
     :param bus: published line name (i.e. bus number)
     :return: list of lats and lons
     """
-    dat = get_data(key)
+    dat = get_data(key, bus)
     rv = []
     for j in dat:
         bus_line_nm = j['MonitoredVehicleJourney']['PublishedLineName']
