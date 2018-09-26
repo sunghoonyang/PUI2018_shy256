@@ -1,4 +1,4 @@
-# Lab 1: 
+git # Lab 1: 
 
 Working with Github repositories, forking, cloning, merging, requesting pulls, solving (easy) conflicts.
 
