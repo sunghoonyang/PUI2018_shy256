@@ -35,5 +35,5 @@ wc -l Open_Parking_and_Camera_Violations_100k_rows.csv
 Please review the [NoteBook](HW3_shy256.ipynb) for the rest of Assignment 2 and Extra Credit
 
 # Assignment 3, 4:  MTA API data processing
-Please review [get_bus_info_shy256.py](../HW3_shy256/get_bus_info_shy256.py/Users/ysh/Documents/pui/PUI2018_shy256/HW3_shy256/get_bus_info_shy256.py)
+Please review [get_bus_info_shy256.py](../HW3_shy256/get_bus_info_shy256.py)
 and [show_bus_locations_shy256.py](../HW3_shy256/show_bus_locations_shy256.py)
